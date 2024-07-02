@@ -14,7 +14,7 @@ public class ContaTerminal {
         System.out.println("Grato! Por gentileza informe seu nome");
         nomeCliente = scan.next();
 
-        System.out.println("obrigado por criar uma conta em nosso banco " + nomeCliente + "! Sua agência é " + agencia + " e seu saldo disponível é de R$237.48");
+        System.out.println("obrigado por criar uma conta em nosso banco " + nomeCliente + "! Sua agência é " + agencia + " e seu saldo disponível é de " + "R$" + saldoDisponivel);
 
 
 
